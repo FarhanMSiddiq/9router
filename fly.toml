@@ -21,3 +21,10 @@ primary_region = 'ams'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
+
+[swap]
+  size = 512
+
+[mounts]
+  source = "data_router"
+  destination = "/app/data"
